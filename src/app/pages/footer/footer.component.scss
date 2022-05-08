@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  a {
+    text-decoration: none;
+    color: white;
+  }
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #151516;
+    // margin: 14px;
+    height: 3rem;
+    width: 100vw;
+  }
+  
+  .social {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .social__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .social__item img {
+    width: 40%;
+  }
+  
+  footer p {
+    padding: 10px;
+  }
