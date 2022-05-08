@@ -9,11 +9,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PilotListComponent implements OnInit {
 
-  public pilots: IPilot[] = pilots as IPilot[];
+  public pilots: IPilot[] = pilots as IPilot[];////preguntar no me aclaro// lo envio al hijo
+  public canModify: boolean = false;
 
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  public onModify() {
+    this.canModify = !this.canModify;
   }
 
 }
