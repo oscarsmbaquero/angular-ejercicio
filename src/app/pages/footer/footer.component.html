@@ -1,10 +1,20 @@
 
 
-<div class ="footer">
+<!-- <div class ="footer">
     <a *ngFor="let socialNetwork of socialNetworks" [href]="socialNetwork.url" >
         {{socialNetwork.name}}</a>
     
 
-</div>
+</div> -->
+
+<div class="footer-list">
+    <app-footer-link
+    class="footer"
+    *ngFor="let socialNetwork of socialNetworks"
+    [socialNetwork]="socialNetwork"
+    
+
+    ></app-footer-link>
+</div>    
 
 <!-- <img class="pilot__image"[src]="pilot.image"> -->

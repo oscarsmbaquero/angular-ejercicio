@@ -1,1 +1,10 @@
-<p>footer-link works!</p>
+<div
+class ="footer-link"
+    *ngIf="socialNetwork">
+    <div class="footer-link__social">
+        <img class="footer-link__image"[src]="socialNetwork.image">    
+         <!-- <p class="footer-link__name">{{socialNetwork.name}}</p> -->
+         <a href="{{socialNetwork.url}}" class="footer-link__name">{{socialNetwork.name}}</a>
+        <!--<p class="footer__name">{{socialNetwork.url}}</p>         -->
+    </div>   
+</div>
