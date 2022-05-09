@@ -4,6 +4,9 @@
     class="pilot"
     *ngFor="let pilot of pilots"
     [pilot]="pilot"
+    [canDelete]="canModify"
+    (delete)="onDelete(pilot.id)"
+    
     
 
     ></app-pilot>

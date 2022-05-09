@@ -4,6 +4,7 @@ export interface IPilot{
     dorsal: string;
     nacionality: Nacionality;
     image: string;
+    id:number;
 
 
 
