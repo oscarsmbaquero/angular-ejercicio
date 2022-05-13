@@ -18,12 +18,12 @@ header {
     position: fixed;
   }
   .pilot-list {
-      background-color: #151516;
+    background-color: #151516;
     width: 100vw;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    color:#f25042;
+    color: white;
     padding: 10px 0;
     backdrop-filter: blur(4px);
   }
@@ -33,7 +33,7 @@ header {
   }
   
   .pilot-list__item a:hover {
-    color: white;
+    color:#f25042;
     transform: rotate(2deg);
     transition-duration: 1s;
   }

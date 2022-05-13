@@ -6,8 +6,12 @@
     [pilot]="pilot"
     [canDelete]="canModify"
     (delete)="onDelete(pilot.id)"
+    (selectPilots)="onSelect($event)"
     
     
-
+    
     ></app-pilot>
-</div>    
+</div>
+<div class="contador">
+    <p>Pilotos selecionados:{{numberSelect}}</p>
+</div>

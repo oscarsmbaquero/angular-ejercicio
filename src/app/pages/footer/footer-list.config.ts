@@ -23,7 +23,4 @@ export const networks =[
       "image": "https://forcaem.com/wp-content/uploads/2016/05/instagram-png-instagram-png-logo-1455.png",
       
     }
-   
-     
-   
   ]
